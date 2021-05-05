@@ -1,0 +1,100 @@
+  635  make
+  636  ls
+  637  averagez
+  638  ./averagez
+  639  vim average.c
+  640  make
+  641  history
+  642  history |100
+  643  history 100| ls
+  644  vim Makefile
+  645  make
+  646  vim Makefile
+  647  make
+  648  vim Makefile
+  649  make
+  650  vim Makefile
+  651  ls
+  652  averagez
+  653  ./averagez
+  654  make
+  655  ls
+  656  vim Makefile
+  657  make
+  658  vim Makefile
+  659  make
+  660  vim Makefile
+  661  make
+  662  vim Makefile
+  663  make
+  664  averagez
+  665  ./averagez
+  666  clear
+  667  history
+  668  quit
+  669  close
+  670  exit
+  671  cd /mnt/scratch-lustre/artiumdav
+  672  ls
+  673  mkdir CTA200assign1
+  674  cd CTA200assign1/
+  675  git init
+  676  echo "#text read me" > README.txt
+  677  git remote add origin git@github.com:artyparty00/CTA200H-Artem.git
+  678  ssh-keygen
+  679  cd ~/
+  680  ls
+  681  cd /home/artiumdav/.ssh
+  682  ls
+  683  more id.rsa.pub
+  684  more id_rsa.pub
+  685  git add README.md
+  686  cd /mnt/scratch-lustre/artiumdav
+  687  ls
+  688  cd CTA200assign1/
+  689  git add README.md
+  690  git add README.txt
+  691  ls
+  692  git commit -m "first commit"
+  693  git branch -M main
+  694  git push -u origin main
+  695  echo IT WORKS!
+  696  rm README.txt
+  697  vim README.md
+  698  vim LICENSE.txt
+  699  git add README.md LICENSE.txt
+  700  git commit -m "added a readme file and a license file"
+  701  mkdir assignment_1
+  702  cd ~/Documents
+  703  ls
+  704  cd CTA200H
+  705  ls
+  706  cd assignment1_2021
+  707  ls
+  708  cp average.c /mnt/scratch-lustre/artiumdav/CTA200assign1/
+  709  cp average.h /mnt/scratch-lustre/artiumdav/CTA200assign1/
+  710  cp main.c /mnt/scratch-lustre/artiumdav/CTA200assign1/
+  711  cd /mnt/scratch-lustre/artiumdav/CTA200assign1/
+  712  ls
+  713  vim Makefile
+  714  make
+  715  vim Makefile
+  716  make
+  717  cd ../averages
+  718  vim Makefile
+  719  cd ..
+  720  ls
+  721  cd CTA200assign1/
+  722  vim Makefile
+  723  make
+  724  calcavrg
+  725  ./calcavr
+  726  echo IT WORKS!
+  727  git add README.md Makefile main.c average.c average.h
+  728  git commit -m "added averages c and h files as well as a Makefile"
+  729  git push -u origin main
+  730  history > history.txt
+  731  more history.txt
+  732  history 200
+  733  history 60
+  734  history 100 >history.txt
